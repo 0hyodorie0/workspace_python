@@ -6,6 +6,7 @@ import random
 
 start = input("홀/짝을 입력하시오(홀/짝)")
 number = random.random()
+result = ""
 
 if number%2==0 :
     computer = "짝"
@@ -17,6 +18,12 @@ else :
 print(number)
 
 if start != computer :
-    print("짐")
+    result = "짐"
 else :
-    print("이김")    
+    result = "이김"    
+
+print("==============")
+print("나 : " , start)
+print("컴 : " , computer)
+print("결과 : " , result)
+print("==============")
