@@ -5,5 +5,15 @@
 # *****
 # ******
 
-for i in range(4) :
-    print("*")
+def drawStar(cnt) :
+    txt = ""
+    for i in range(cnt) :
+        txt += "*"
+    print(txt)
+    
+drawStar(4)
+drawStar(5)
+drawStar(6)
+
+print("a", end="")
+print("b")
