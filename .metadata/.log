@@ -6141,3 +6141,15 @@ java.lang.Error: SWT Resource was not properly disposed
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-22 17:24:43.672
 !MESSAGE executing callback sts4.classpath.mNIGClWc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-22 17:30:42.534
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mNIGClWc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-22 17:30:42.535
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.mNIGClWc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-22 17:30:42.535
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-22 17:30:42.535
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mNIGClWc => OK
