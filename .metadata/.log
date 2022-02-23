@@ -8285,3 +8285,6 @@ java.lang.Error: SWT Resource was not properly disposed
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-23 14:57:24.519
 !MESSAGE executing callback sts4.classpath.uuITPfrs SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-02-23 15:12:18.281
+!MESSAGE Invalid preference category path: egovframework.dev.imp.confmngt.preferences.emptyconfpreperencepage (bundle: egovframework.rte.rdt, page: egovframework.rte.rdt.plugin.preferences.RdtPreferencePage)

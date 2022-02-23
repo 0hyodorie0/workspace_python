@@ -14,7 +14,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 
 
-public class Main extends Application {
+public class Main2 extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) {
@@ -25,22 +25,14 @@ public class Main extends Application {
 //			primaryStage.setScene(scene);
 //			primaryStage.show();
 			
-            Parent root = FXMLLoader.load(getClass().getResource("hello.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("main2.fxml"));
             Scene scene = new Scene(root,400,400);
             scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             primaryStage.setTitle("AppMain");
             primaryStage.setScene(scene);
             primaryStage.show();
             
-            Label lbl = (Label)scene.lookup("#lbl");
-            Button btn = (Button)scene.lookup("#btn");
-            btn.setOnMouseClicked(new EventHandler<Event>() {
-
-				@Override
-				public void handle(Event event) {
-					lbl.setText("Good evening");
-				}
-			});
+           
 
 		} catch(Exception e) {
 			e.printStackTrace();
