@@ -6,6 +6,7 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
@@ -62,6 +63,9 @@
             <Label id="lbl_com" layoutX="124.0" layoutY="140.0" text="컴" />
             <Label id="lbl_result" layoutX="124.0" layoutY="205.0" text="결과" />
             <Button id="btn" layoutX="333.0" layoutY="257.0" mnemonicParsing="false" text="게임하기" />
+            <TextField id="txt_mine" layoutX="182.0" layoutY="70.0" />
+            <TextField id="txt_com" layoutX="182.0" layoutY="136.0" />
+            <TextField id="txt_result" layoutX="182.0" layoutY="201.0" />
       </children>
     </AnchorPane>
   </children>
