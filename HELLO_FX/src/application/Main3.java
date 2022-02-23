@@ -15,26 +15,21 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 
 
-public class Main2 extends Application {
+public class Main3 extends Application {
 	
-	TextField tf;
 	@Override
 	public void start(Stage primaryStage) {
+		TextField tf;
 		try {
-//			BorderPane root = new BorderPane();
-//			Scene scene = new Scene(root,400,400);
-//			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-//			primaryStage.setScene(scene);
-//			primaryStage.show();
-			
-            Parent root = FXMLLoader.load(getClass().getResource("main2.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("main3.fxml"));
             Scene scene = new Scene(root,400,400);
             scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             primaryStage.setTitle("AppMain");
             primaryStage.setScene(scene);
             primaryStage.show();
             
-            tf = (TextField)scene.lookup("#tf");
+            Label mine = (Label)scene.lookup("#lbl_mine");
+            Label com = (Label)scene.lookup("#lbl_com");
             Button btn = (Button)scene.lookup("#btn");
             btn.setOnMouseClicked(new EventHandler<Event>() {
 
@@ -42,21 +37,17 @@ public class Main2 extends Application {
 				public void handle(Event event) {
 					myclick();
 				}
-
+			
             });
-           
-
+            
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
 	public void myclick() {
-		String a = tf.getText();
-		int aa = Integer.parseInt(a);
-		aa++;
-		tf.setText(aa+"");
+		
+		
 	}
-	
 	public static void main(String[] args) {
 		launch(args);
 	}
