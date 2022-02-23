@@ -15,31 +15,32 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 
 
-public class Main3 extends Application {
-	TextField txt_mine;
-    TextField txt_com;
-    TextField txt_result;
+public class Main5 extends Application {
+	TextField tf1;
+	TextField tf2;
+	TextField tf3;
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-            Parent root = FXMLLoader.load(getClass().getResource("main3.fxml"));
+			
+            Parent root = FXMLLoader.load(getClass().getResource("main5.fxml"));
             Scene scene = new Scene(root,400,400);
             scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
             primaryStage.setTitle("AppMain");
             primaryStage.setScene(scene);
             primaryStage.show();
             
+            tf1 = (TextField)scene.lookup("#tf1");
+            tf2 = (TextField)scene.lookup("#tf2");
+            tf3 = (TextField)scene.lookup("#tf3");
             Button btn = (Button)scene.lookup("#btn");
-             txt_mine = (TextField)scene.lookup("#txt_mine");
-             txt_com = (TextField)scene.lookup("#txt_com");
-             txt_result = (TextField)scene.lookup("#txt_result");
-            
             btn.setOnMouseClicked(new EventHandler<Event>() {
 
 				@Override
 				public void handle(Event event) {
 					myclick();
 				}
+            	
             });
             
 		} catch(Exception e) {
@@ -48,27 +49,18 @@ public class Main3 extends Application {
 	}
 	
 	public void myclick() {
-		String mine = txt_mine.getText();
-		String com = "";
-		String result = "";
+		String mytext1 = tf1.getText();
+		int mynum1 = Integer.parseInt(mytext1);
+		String mytext2 = tf2.getText();
+		int mynum2 = Integer.parseInt(mytext2);
+		int result = 0;
 		
-		double rnd = Math.random();
-		if(rnd>0.5) {
-			com = "홀";
-		}else {
-			com = "짝";
+		for(int i = mynum1; i<(mynum2+1); i++) {
+			result += i;
 		}
-		if(mine.equals(com)) {
-			result = "이김";
-		}else {
-			result = "짐";
-		}
-		
-		txt_com.setText(com);
-		txt_result.setText(result);
-		
+		tf3.setText(result+"");
 	}
-	
+
 	public static void main(String[] args) {
 		launch(args);
 	}
