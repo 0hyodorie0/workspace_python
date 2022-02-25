@@ -11223,3 +11223,15 @@ java.lang.Error: SWT Resource was not properly disposed
 
 !ENTRY org.eclipse.ui 2 2 2022-02-25 13:50:44.866
 !MESSAGE Invalid preference category path: egovframework.dev.imp.confmngt.preferences.emptyconfpreperencepage (bundle: egovframework.rte.rdt, page: egovframework.rte.rdt.plugin.preferences.RdtPreferencePage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 14:42:44.477
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XdWvrJGv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 14:42:44.477
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XdWvrJGv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 14:42:44.477
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 14:42:44.478
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XdWvrJGv => OK
