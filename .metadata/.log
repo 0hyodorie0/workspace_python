@@ -11235,3 +11235,66 @@ java.lang.Error: SWT Resource was not properly disposed
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 14:42:44.478
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XdWvrJGv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:19.374
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:19.375
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@12b3f43f[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=985)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:19.375
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.692
+!MESSAGE Boot LS startup time from start to initialized: 1317ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.743
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NdODqGVqisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.743
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.743
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.743
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.743
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.744
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NdODqGVq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.744
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.745
+!MESSAGE buffering callback sts4.classpath.NdODqGVq HELLO_FX false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.745
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.746
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.746
+!MESSAGE buffering callback sts4.classpath.NdODqGVq HELLO_JAVA false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.746
+!MESSAGE executing callback sts4.classpath.NdODqGVq 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:07:20.896
+!MESSAGE executing callback sts4.classpath.NdODqGVq SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:13:49.159
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NdODqGVq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:13:49.159
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NdODqGVq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:13:49.159
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:13:49.159
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NdODqGVq => OK
