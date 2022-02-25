@@ -11,6 +11,10 @@ class MyWindow(QMainWindow, form_class):
         self.setupUi(self)
         
         self.pb.clicked.connect(self.rockScissorsPaper)
+        self.mine.returnPressed.connect(self.myenter)
+        
+    def myenter(self):
+        self.rockScissorsPaper()
         
     def rockScissorsPaper(self):
         

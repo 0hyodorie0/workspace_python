@@ -11298,3 +11298,54 @@ java.lang.Error: SWT Resource was not properly disposed
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:13:49.159
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NdODqGVq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:02.097
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:02.097
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@12b3f43f[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=985)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:02.097
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.380
+!MESSAGE Boot LS startup time from start to initialized: 1282ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.431
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FOJFiIisisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.431
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.431
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.432
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.432
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.432
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FOJFiIis => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.433
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.433
+!MESSAGE buffering callback sts4.classpath.FOJFiIis HELLO_FX false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.433
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.434
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.434
+!MESSAGE buffering callback sts4.classpath.FOJFiIis HELLO_JAVA false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.434
+!MESSAGE executing callback sts4.classpath.FOJFiIis 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.576
+!MESSAGE executing callback sts4.classpath.FOJFiIis SUCCESS [done]
