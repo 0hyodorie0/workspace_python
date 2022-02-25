@@ -11349,3 +11349,15 @@ java.lang.Error: SWT Resource was not properly disposed
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 16:57:03.576
 !MESSAGE executing callback sts4.classpath.FOJFiIis SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 17:32:36.086
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FOJFiIis
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 17:32:36.087
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FOJFiIis
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 17:32:36.087
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-25 17:32:36.087
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FOJFiIis => OK
